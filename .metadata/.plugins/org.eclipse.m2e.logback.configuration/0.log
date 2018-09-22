@@ -703,3 +703,8 @@ java.lang.NullPointerException: null
 2018-09-21 20:01:59,523 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2018-09-21 20:01:59,526 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-09-21 20:01:59,527 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naulnauli/Documents/workspace-sts-3.9.5.RELEASE/tutorial-2/src/test/resources
+2018-09-22 15:40:56,298 [Worker-757: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-22 15:40:56,301 [Worker-757: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-09-22 15:40:56,303 [Worker-757: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-09-22 15:40:56,314 [Worker-757: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-22 15:40:56,314 [Worker-757: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naulnauli/Documents/workspace-sts-3.9.5.RELEASE/tutorial-2/src/test/resources

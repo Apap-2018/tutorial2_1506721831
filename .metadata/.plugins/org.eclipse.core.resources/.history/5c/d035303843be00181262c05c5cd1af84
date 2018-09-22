@@ -28,21 +28,21 @@ public class PageController {
 	return "challenge";
 	}
 	
-	@RequestMapping("/generator") //routing di web
-    public String generator(@RequestParam(value = "a",  required=false, defaultValue = "0") int a, @RequestParam(value = "b",  required=false, defaultValue = "0") int b, Model model) {
-        String hasil = "hm";
-        model.addAttribute("a", a);//buat m
-        model.addAttribute("b", b);//nge pass data, b buat hm
-
-        while(a > 1) {
-            hasil = hasil + "m";
-            a--;
-        } while (b > 1) {
-            hasil +=  " " + hasil;
-            b--;
-        }
-
-        model.addAttribute("hasil", hasil);
-        return "generator"; //return view generator.html
-    }
+	@RequestMapping("/generator") //routing di web 
+		public String generator(@RequestParam(value = "a") int a, @RequestParam(value = "b") int b, Model model) {
+			String hasil = "hm";
+			model.addAttribute("a", a);//buat m 
+			model.addAttribute("b", b);//nge pass data, b buat hm  
+			
+			while(a > 1) {
+				hasil += "m";
+				a--;
+			} while (b > 1) {
+				hasil +=  hasil;
+				b--;
+			}
+			
+			model.addAttribute("hasil", hasil);
+			return "generator"; //return view generator.html
+		}
 }
